@@ -1,0 +1,27 @@
+{
+  "name": "octux",
+  "version": "1.0.1",
+  "private": true,
+  "description": "Prepared react components",
+  "keywords": [
+    "react",
+    "components"
+  ],
+  "author": "konnetrofast13 <chablimohammedyassine@gmail.com> (http://www.inferom.com)",
+  "scripts": {
+    "build": "lerna run build --scope octux",
+    "watch": "lerna run watch --scope octux",
+    "package": "lerna exec --scope octux -- npm pack"
+  },
+  "workspaces": [
+    "examples/*",
+    "packages/*"
+  ],
+  "devDependencies": {
+    "@types/react": "^17.0.6",
+    "@types/react-dom": "^17.0.5",
+    "lerna": "^4.0.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
