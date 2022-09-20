@@ -1,6 +1,6 @@
 {
-  "name": "octux",
-  "version": "1.0.1",
+  "name": "@octux/octux",
+  "version": "1.0.0",
   "private": true,
   "description": "Prepared react components",
   "keywords": [
