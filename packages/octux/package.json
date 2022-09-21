@@ -1,7 +1,7 @@
 {
-  "name": "octux",
-  "version": "1.0.0",
-  "description": "",
+  "name": "@octux/octux",
+  "version": "1.0.1",
+  "description": "Prepared react components package",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",

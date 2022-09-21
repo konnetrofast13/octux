@@ -1,7 +1,6 @@
 {
   "name": "@octux/octux",
   "version": "1.0.0",
-  "private": true,
   "description": "Prepared react components",
   "keywords": [
     "react",
@@ -9,7 +8,7 @@
   ],
   "author": "konnetrofast13 <chablimohammedyassine@gmail.com> (http://www.inferom.com)",
   "scripts": {
-    "build": "lerna run build --scope octux",
+    "build": "lerna run build --scope \"@octux/*\" ",
     "watch": "lerna run watch --scope octux",
     "package": "lerna exec --scope octux -- npm pack"
   },
